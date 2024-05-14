@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>One Stop Car Shop Site</h1>
+    <hr>
+    <br>
+    <h4>Enter specific car Model or Make to find your preference!</h4>
+    
+    
+    <form onsubmit= "carForm()"> 
+        <br>
+        <label for="">Make:</label>
+        <input type="text" id="make">
+        
+        <label for="">Model:</label>
+        <input type="text" id="model">
+        
+        <label for="">Year:</label>
+        <input type="text" id="year">
+       
+        <input type="submit" value="Search">
+    </form>    
+   
+    <p>Rental Options:</p>
+    <div id="foundRental"></div>
+    <hr>
+    
+    <h4></h4>
+    <form onchange="rentalsDropDown()">
+        <br>
+        <label for="availableCars">Available Cars:</label>
+        <select id="availableCars">
+            <option value="">Select Car</option>
+            <option></option>
+            
+        </form>
+        
+        
+        
+
+   
+
+   
+    
+    
+</body>
+<script src="carRental001.js"></script>
+</html>
